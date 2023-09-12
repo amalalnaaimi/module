@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Rubik&display=swap');
+*{
+    margin:2;
+    padding:2;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+
+ 
+}
+body{
+    display: flex;
+   justify-content: center;
+    min-height: 100vh;
+    min-width: 10vh;
+    background: #8fc2e7;
+}
+
+div{
+    width: 80%;
+    background-color: white;
+   
+    border-radius: 5px;
+   
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: rgb(12, 12, 109);
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+
+}
+.navbar a{
+    font-size: 18px;
+    color: rgb(12, 12, 109);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+
+}
+.navbar a :hover,
+.navbar a.active {
+    color: rgb(28, 138, 153);
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+   
+    
+}
+.home_conten h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: -5px 0;
+}
+.home_conten h1 span{
+    color: blue;
+    font-size: 50;
+}
+
+.home_conten h3 :nth-of-type(3) {
+   
+   margin-bottom: 30px;
+ 
+
+}
+a.but
+{
+    display: inline-block;
+    padding: 22px 28px;
+    background: rgb(8, 85, 250);
+    border-radius: 40px;
+    box-shadow: 0 0 10px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+   
+}
+
+
+.but2{
+    display: inline-block;
+    padding: 22px 28px;
+    background: rgb(129, 145, 180);
+    border-radius: 40px;
+    box-shadow: 0 0 10px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.but :hover{
+    color: azure;
+}
+
